@@ -10,19 +10,20 @@ class AuthCubit extends Cubit<AuthState> {
   final AuthRepository _authRepository;
   UserModel? _currentUser;
   
-  // CONSTRUCTOR POSICIONAL
   AuthCubit(this._authRepository) : super(AuthInitial());
   
-  // Constructor alternativo con nombre (opcional)
   factory AuthCubit.withRepository({required AuthRepository authRepository}) {
     return AuthCubit(authRepository);
   }
   
   UserModel? get currentUser => _currentUser;
 
-  int? get assignedCategoryId => null;
-
-  get isAdmin => null;
+  int? get assignedCategoryId => _currentUser?.assignedCategoryId;
+  
+  // GETTERS CORREGIDOS
+  bool get isAdmin => _currentUser?.role == UserRole.admin;
+  bool get isManager => _currentUser?.role == UserRole.manager;
+  bool get isWorker => _currentUser?.role == UserRole.worker;
   
   Future<void> initializeSampleUsers() async {
     await _authRepository.initializeSampleUsers();
