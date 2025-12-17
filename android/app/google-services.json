@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "584385733362",
+    "project_id": "stockmaster-d4053",
+    "storage_bucket": "stockmaster-d4053.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:584385733362:android:b199d2435dc6be59b6666b",
+        "android_client_info": {
+          "package_name": "com.example.stackmaster"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxzPPBOB-qb9wNXksjqb-J9aWJ2sLt_Sg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,38 @@
+Analyzing stockmaster...                                        
+
+  error - The argument type 'CardTheme' can't be assigned to the parameter type 'CardThemeData?'.  - lib\app.dart:56:22 - argument_type_not_assignable
+warning - The value of the local variable 'firebaseUser' isn't used - lib\app.dart:163:17 - unused_local_variable
+  error - The named parameter 'authRepository' isn't defined - lib\core\dependency_injection.dart:125:48 - undefined_named_parameter
+  error - The getter 'isAdmin' isn't defined for the type 'AuthCubit' - lib\core\utils\permission_mixin.dart:24:36 - undefined_getter
+  error - The argument type 'int?' can't be assigned to the parameter type 'int'.  - lib\core\utils\permission_mixin.dart:29:52 - argument_type_not_assignable
+  error - The method 'canEditProducts' isn't defined for the type 'AuthCubit' - lib\core\utils\permission_mixin.dart:34:36 - undefined_method
+  error - The method 'canEditCategories' isn't defined for the type 'AuthCubit' - lib\core\utils\permission_mixin.dart:39:36 - undefined_method
+  error - The getter 'assignedCategoryId' isn't defined for the type 'AuthCubit' - lib\core\utils\permission_mixin.dart:44:36 - undefined_getter
+  error - The getter 'isAdmin' isn't defined for the type 'AuthCubit' - lib\core\utils\permission_mixin.dart:71:39 - undefined_getter
+  error - The method 'canEditProducts' isn't defined for the type 'AuthCubit' - lib\core\utils\permission_mixin.dart:76:38 - undefined_method
+  error - The getter 'isAdmin' isn't defined for the type 'AuthCubit' - lib\core\widgets\permission_restricted_widget.dart:60:37 - undefined_getter
+  error - The method 'canEditProducts' isn't defined for the type 'AuthCubit' - lib\core\widgets\permission_restricted_widget.dart:64:36 - undefined_method
+  error - The getter 'userModels' isn't defined for the type 'Isar' - lib\data\firebase\sync_service.dart:166:33 - undefined_getter
+  error - The getter 'userModels' isn't defined for the type 'Isar' - lib\data\firebase\sync_service.dart:496:39 - undefined_getter
+  error - The getter 'userModels' isn't defined for the type 'Isar' - lib\data\firebase\sync_service.dart:889:48 - undefined_getter
+  error - The getter 'userModels' isn't defined for the type 'Isar' - lib\data\firebase\sync_service.dart:921:39 - undefined_getter
+  error - The getter 'userModels' isn't defined for the type 'Isar' - lib\data\firebase\sync_service.dart:956:48 - undefined_getter
+  error - Undefined name 'UserModelSchema' - lib\data\isar\isar_service.dart:36:11 - undefined_identifier
+  error - The getter 'userModels' isn't defined for the type 'Isar' - lib\data\isar\isar_service.dart:49:25 - undefined_getter
+  error - The getter 'userModels' isn't defined for the type 'Isar' - lib\data\isar\isar_service.dart:65:35 - undefined_getter
+  error - Target of URI hasn't been generated: 'package:stockmaster/data/models/user_model.g.dart' - lib\data\models\user_model.dart:3:6 - uri_has_not_been_generated
+  error - The getter 'userModels' isn't defined for the type 'Isar' - lib\data\repositories\auth_repository.dart:61:37 - undefined_getter
+  error - The getter 'userModels' isn't defined for the type 'Isar' - lib\data\repositories\auth_repository.dart:86:53 - undefined_getter
+  error - The getter 'userModels' isn't defined for the type 'Isar' - lib\data\repositories\auth_repository.dart:147:35 - undefined_getter
+  error - The argument type 'num' can't be assigned to the parameter type 'double'.  - lib\presentation\cubits\dashboard_cubit.dart:148:21 - argument_type_not_assignable
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\presentation\pages\home_page.dart:424:32 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\presentation\pages\home_page.dart:425:33 - deprecated_member_use
+   info - Don't use 'BuildContext's across async gaps - lib\presentation\pages\login_page.dart:65:19 - use_build_context_synchronously
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\presentation\pages\login_page.dart:192:40 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\presentation\pages\login_page.dart:194:59 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\presentation\pages\login_page.dart:278:47 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\presentation\pages\login_page.dart:464:43 - deprecated_member_use
+   info - Don't use 'BuildContext's across async gaps - lib\presentation\pages\stock_movement_form_page.dart:60:22 - use_build_context_synchronously
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\presentation\pages\stock_movement_history_page.dart:146:50 - deprecated_member_use
+
+34 issues found. (ran in 2.5s)
