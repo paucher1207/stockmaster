@@ -1,4 +1,4 @@
-// presentation/cubits/auth_cubit.dart
+
 import 'package:flutter/foundation.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:stockmaster/data/repositories/auth_repository.dart';
@@ -20,7 +20,6 @@ class AuthCubit extends Cubit<AuthState> {
 
   int? get assignedCategoryId => _currentUser?.assignedCategoryId;
   
-  // GETTERS CORREGIDOS
   bool get isAdmin => _currentUser?.role == UserRole.admin;
   bool get isManager => _currentUser?.role == UserRole.manager;
   bool get isWorker => _currentUser?.role == UserRole.worker;
